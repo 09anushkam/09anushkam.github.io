@@ -1,0 +1,146 @@
+/* 991px */
+/* 767px */
+/* 479px */
+/* media queries */
+
+/* @media screen and (width < 991px) */
+
+@media screen and (max-width:767px) {
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-toggle {
+        display: block;
+        right: 0;
+        margin-right: 1rem;
+    }
+
+    .navbar{
+        position: absolute; 
+        display: flex;
+        flex-direction: column;
+        /* background: #000; */
+        background-color: burlywood;
+        left: -100%;
+        top: 163%;
+        width: 30%;
+        padding-block: 2rem;
+        transition: 0.2s ease-in-out;
+    }
+
+    .navbar.active{
+        z-index: 100;
+        left: 0;
+    }
+
+    #navbar.navbar.active{
+        border: 2px solid rgb(63, 36, 1);
+    }
+
+    .navbar ul{
+        flex-direction: column;
+    }
+
+    .navbar ul a{
+        color: rgb(63, 36, 1);
+        display: block;
+        width: 100%;
+        border-bottom: .1rem solid rgb(63, 36, 1);
+    }
+
+    .navbar ul a:hover{
+        color: #fff;
+        background: rgb(63, 36, 1);
+    }
+
+    .container {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        box-shadow: -5px 5px 10px black, inset -0px -0px 2px rgba(255, 255, 255, 0.623);
+        border-radius: 1rem;
+        background-color: #ffffff;
+        padding: 1rem 3rem;
+    }
+
+    .container{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:695px) {
+    .navbar {
+        top: 166%;
+        width: 30%;
+    }
+
+    .navbar.active{
+        z-index: 1;
+        left: 0;
+    }
+}
+
+@media screen and (max-width:479px) {
+
+    .navbar{
+        top: 166%;
+        width: 40%;
+    }
+
+    .navbar.active{
+        z-index: 100;
+        left: 0;
+    }
+
+    #tricks .card .btns .trick-btns {
+        width: 90%;
+        font-size: 2rem;
+        font-weight: 700;
+        /* margin: 1rem; */
+        text-align: center;
+        border: none;
+        outline: none;
+        border-radius: 1rem;
+        background: linear-gradient(90deg, rgb(63, 36, 1), burlywood);
+        box-shadow: -5px 5px 5px black, inset 0px 0px 2px rgba(255, 255, 255, 0.623);
+        color: black;
+    }
+
+    .result-box,.info-box,.quiz-box{
+        transform: translate(-50%) scale(1);
+        width: 80%;
+        overflow: hidden;
+        flex-wrap: wrap;
+        z-index: 1;
+        /* height: ; */
+    }
+
+    .start button{
+        width: 70vw;
+    }
+
+    .container{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:361px) {
+    .navbar {
+        top: 166%;
+        width: 40%;
+    }
+
+    .start button{
+        width: 70vw;
+    }
+}

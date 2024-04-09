@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page 1</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        header h1 {
+            font-size: 4.2rem;
+            font-weight: 800;
+        }
+
+        @media screen and (max-width:767px) {
+            header h1 {
+                font-size: 3rem;
+                font-weight: 600;
+                padding: 1rem;
+            }
+        }
+
+    table {
+        background-color: #fff;
+        font-size: 1.5rem;
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        font-weight: 600;
+        /* border: 1px solid #dddddd; */
+        border: 1px solid #000;
+        text-align: left;
+        padding: 1rem;
+    }
+
+    th{
+        font-size: 2rem;
+        font-weight: 800;
+        color: rgb(63, 36, 1)
+    }
+    
+    @media screen and (max-width: 479px) {
+        th, td {
+            padding: .6rem;
+            font-size: 1rem;
+        }
+    }
+    
+    
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Vedic Maths Explorer</h1>
+    </header>
+
+    <nav>
+        <div class="navbar" id="navbar">
+            <!-- <div class="nav-left">
+                    <ul>
+                        <li><a href="" class="nav-links"></a></li>
+                        <li><a href="" class="nav-links"></a></li>
+                        <li><a href="" class="nav-links"></a></li>
+                    </ul>
+                </div> -->
+            <div class="nav-right">
+                <ul>
+                    <li><a href="../Login/" class="nav-links">Login</a></li>
+                    <li><a href="../Signup/" class="nav-links">Sign Up</a></li>
+                    <!-- <li><a href="#" class="nav-toggle hamburger-icon"><i class='bx bx-menu'></i></a></li> -->
+                </ul>
+            </div>
+        </div>
+        <a href="#" class="nav-toggle hamburger-icon" id="nav-toggle"><i class='bx bx-menu'></i></a>
+    </nav>
+
+    <main>
+        <section id="main-image">
+            <div class="image_text_btn">
+                <div class="img">
+                    <img src="https://www.gyanipandit.com/en/wp-content/uploads/2022/05/Vedic-Math.jpg" alt="Vedic Maths">
+                </div>
+                <div class="text_btn">
+                    <div class="content">
+                        <section id="about">
+                            <div class="content-box">
+                                <!-- <h2>About Vedic Maths</h2> -->
+                                <h2>What is Vedic Maths?</h2>
+                                <p>Vedic maths is a system of mathematics that was rediscovered by Swami Bharati Krishna Tirthaji in the
+                                    early 20th
+                                    century.</p>
+                                <p>He claimed that he found 16 sutras (formulas) and 13 sub-sutras (sub-formulas) in the Vedas that can be
+                                    used to solve
+                                    any mathematical problem.</p>
+                                <p>Vedic maths is not only about arithmetic, but also covers algebra, geometry, trigonometry, calculus, and
+                                    more. Vedic
+                                    maths is based on the principle of unity, which means that everything is connected and can be simplified
+                                    to a single
+                                    entity.</p>
+                                    <p><a href="https://en.wikipedia.org/wiki/Vedic_Mathematics" style="text-decoration: none;" target="_blank">Read more...</a></p>
+                            </div>
+                        </section>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="history">
+            <div class="history">
+                <div class="content-box">
+                    <h2>History of Vedic Maths</h2>
+                    <p>The Vedas, which date back more than 5,000 years, are the most honored and ancient texts in Hinduism. The
+                        word “Veda” in
+                        Sanskrit means “knowledge” or “wisdom.” The Rigveda, Yajurveda, Samaveda and Atharvaveda are the four
+                        divisions of the
+                        Vedas. The Brahmana (rituals),the Samhita (hymns), the Upanishad (philosophy) and the Aranyaka (forest
+                        literature) make
+                        up each of the four sections.</p>
+                
+                    <p>The Sulba Sutras, which are part of the Kalpa Sutras (ritual manuals), contain the majority of the Vedic
+                        mathematical knowledge. The Sulba Sutras are concerned with the building of altars and geometric shapes for sacrifice
+                        rites. They also include early instances of algebraic equations, the Pythagorean theorem, irrational numbers, square
+                        roots, and pi.</p>
+                
+                    <p>Vedic Mathematics was rediscovered by Indian mathematician <strong>Jagadguru Shri Bharati Krishna Tirthaji</strong> between
+                        1911 and 1918. He was a Sanskrit, math, history, and philosophy expert. From 1925 until 1960, he was also the
+                        Shankaracharya
+                        (spiritual head) of Puri. He spent several years researching the Vedas and other ancient manuscripts,
+                        claiming to have
+                        discovered a cohesive mathematical system concealed within them.</p>
+                
+                    <p>These formulae were later published in a book called Vedic Mathematics in 1965. The system is based on 16
+                        sutras (formulae) and 13 sub sutras.</p>
+                </div>
+                <div class="history-img">
+                    <h3>Shri Bharati Krishna Tirthaji</h3>
+                    <img src="https://i0.wp.com/hindupad.com/wp-content/uploads/Jagadguru-Bharati-Krishna-Tirtha-Swami.jpg?fit=347%2C460&ssl=1" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="benefits">
+            <div class="content-box">
+                <h2>Benefits of Vedic Maths</h2>
+                <p>• It is basic and straightforward to learn and remember.</p>
+                <p>• It is quick and accurate, reducing the possibility of mistakes.</p>
+                <p>• It’s entertaining and pleasant, and it encourages innovation and lateral thinking.</p>
+                <p>• It is adaptable and versatile, and it can be used in any discipline of mathematics.</p>
+                <p>• It is comprehensive and global, promoting mental and spiritual growth.</p>
+            </div>
+        </section>
+
+        <section id="facts">
+            <div class="content-box">
+
+                <h2>Interesting Facts & Formulae :</h2>
+
+                <h3>Vertically and Crosswise Multiplication (Urdhva Tiryagbhyam) :</h3>
+                <p>This technique allows for rapid multiplication of numbers. It's particularly useful when multiplying numbers with
+                multiple digits.</p>
+                <p>Formula: Let's say you want to multiply two numbers, ab and cd.</p>
+                <p>The product is given by: (10a+b) x (10c+d)</p>
+                <p>To find the product:
+                Multiply the digits in the vertical and crosswise direction.
+                Add the results to get the final product.</p>
+
+                <h3>Squaring Numbers Ending in 5 (Ekadhikena Purvena):</h3>
+                <p>Squaring numbers ending in 5 becomes extremely simple with this technique.</p>
+                <p>Formula: To square a number ending in 5, let's say N5 follow these steps:
+                Multiply the digit before 5 by itself plus 1 to get the first part of the result.
+                Append 25 to the result.</p>
+                <p>Example: To square 35, 3 x (3+1) gives 12, and appending 25 gives 1225.</p>
+
+                <h3>Digital Roots and Casting Out Nines:</h3>
+                <p>Vedic maths includes techniques for quickly checking the accuracy of calculations through digital roots.</p>
+                <p>Digital Root: The digital root of a number is the sum of its digits, and if the result is a two-digit number, its digits
+                are summed again.</p>
+                <p>Casting Out Nines: This is a method for checking the correctness of arithmetic operations. The idea is that if the sum
+                of the digits of the result is the same as the sum of the digits of the operands, then the operation is likely correct.</p>
+                <p>Example: If you add 123 and 456, the sum is 579. The digital root of 123 is 6, the digital root of 456 is 6, and the
+                digital root of 579 is 3. Since 6 + 6 ≠ 3, an error may be present in the calculation.</p>
+                <p></p>
+                <p></p>
+            </div>
+        </section>
+
+        <div class="content">
+            <section id="sutras">
+                <div class="content-box">
+                    <h2>SUTRAS</h2>
+                    <p>The sixteen sutras (word-formulas), and thirteen sub-sutras that constitute the foundation of Vedic mathematics each
+                    offer precise solutions for a variety of mathematical problems.These approaches are applicable to addition, subtraction,
+                    multiplication, and division, as well as other mathematical operations.</p>
+                    <table>
+                        <tr>
+                            <th>Sutra</th>
+                            <th>Meaning</th>
+                            <th>Uses</th>
+                        </tr>
+                        <tr>
+                            <td>Ekadhikena Purvena</td>
+                            <td>By one more than the one before</td>
+                            <td>This Sutra simplifies squaring numbers close to base values</td>
+                        </tr>
+                        <tr>
+                            <td>Nikhilam Navatashcaramam Dashatah</td>
+                            <td>All from 9 and the last from 10.</td>
+                            <td>A powerful technique for subtraction, especially useful when dealing with numbers close to multiples of 10.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Urdhva Tiryak</td>
+                            <td>Vertically and Crosswise.</td>
+                            <td>This Sutra streamlines multiplication, especially useful for multiplying large numbers.</td>
+                        </tr>
+                        <tr>
+                            <td>Paraavartya Yojayet</td>
+                            <td>Transpose and adjust</td>
+                            <td>This technique aids in simplifying complex mathematical problems involving equations and variables.</td>
+                        </tr>
+                        <tr>
+                            <td>Shunyam Saamyasamuccaye</td>
+                            <td>When the sum is the same, that sum is zero.</td>
+                            <td>An effective approach for solving algebraic equations with equal sums on both sides.</td>
+                        </tr>
+                        <tr>
+                            <td>Anurupye Shunyamanyat</td>
+                            <td>If one is in ratio, the other is zero</td>
+                            <td>This Sutra is indispensable for solving proportionality problems.</td>
+                        </tr>
+                        <tr>
+                            <td>Yavadunam Tavadunikritya Varga Samam</td>
+                            <td>Whatever the extent of its deficiency, lessen that deficiency to form a square</td>
+                            <td>Simplifies division and finding square roots.</td>
+                        </tr>
+                        <tr>
+                            <td>Vilokanam</td>
+                            <td>By mere observation</td>
+                            <td>A technique that encourages quick, intuitive solutions based on patterns and observations.</td>
+                        </tr>
+                        <tr>
+                            <td>Sankalana-vyavakalanabhyam</td>
+                            <td>By addition and by subtraction</td>
+                            <td>This Sutra offers techniques for both addition and subtraction, enabling quick calculations</td>
+                        </tr>
+                        <tr>
+                            <td>Puranapuranabhyam</td>
+                            <td>By the completion or non-completion.</td>
+                            <td>This Sutra aids in finding fractions and complements, simplifying various mathematical operations.</td>
+                        </tr>
+                        <tr>
+                            <td>Chalana-kalanabyham</td>
+                            <td>Differences and Similarities</td>
+                            <td>Useful for problems involving ratios and proportions</td>
+                        </tr>
+                        <tr>
+                            <td>Yaavadunam</td>
+                            <td>Partial Products</td>
+                            <td>This Sutra facilitates the multiplication of large numbers by breaking them down into smaller, more
+                                manageable parts</td>
+                        </tr>
+                        <tr>
+                            <td>Vestanam</td>
+                            <td>Specific and General</td>
+                            <td>This Sutra helps in solving problems where a specific value is derived from a general one</td>
+                        </tr>
+                        <tr>
+                            <td>Yavadvividham Vyashtih</td>
+                            <td>Separately the particular from the general</td>
+                            <td>This Sutra is handy for finding individual components from a group</td>
+                        </tr>
+                        <tr>
+                            <td>Samuccaye</td>
+                            <td>Collective addition.</td>
+                            <td>Useful for quick summations, especially when dealing with a series of numbers</td>
+                        </tr>
+                        <tr>
+                            <td>Ekanyunena Purvena</td>
+                            <td>By one less than the previous one</td>
+                            <td>This Sutra provides a technique for division and helps in finding quotients efficiently</td>
+                        </tr>
+                    </table>
+
+    
+                </div>
+            </section>
+
+        </div>
+
+        <div class="content">
+            <section id="sutras">
+                <div class="content-box">
+                    <h2>SUBSUTRAS</h2>
+                    <p>Vedic maths tricks are also known as sub-sutras or corollaries. They are derived from the main sutras and provide
+                    additional methods or shortcuts to solve problems faster and easier. There are 13 sub sutras. These sub sutras are
+                    discussed below in the table.</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Sub-Sutra</th>
+                                <th>Meaning</th>
+                                <th>Uses</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Antyayordashakepi</td>
+                                <td>The last digit remains the same</td>
+                                <td>This sub-Sutra aids in quickly determining the last digit of a product.</td>
+                            </tr>
+                            <tr>
+                                <td>Sopantyadvayamantyam</td>
+                                <td>The last two of the last</td>
+                                <td>Useful for solving problems where the last two digits are required.</td>
+                            </tr>
+                            <tr>
+                                <td>Ekaadhikena Purvena</td>
+                                <td>One more than the previous</td>
+                                <td>This sub-Sutra extends the “Ekadhikena Purvena” technique for squaring numbers closer to the base.</td>
+                            </tr>
+                            <tr>
+                                <td>Paravartya Sutra</td>
+                                <td>Transposition and adjustment</td>
+                                <td>Helps in solving linear equations and balance problems.</td>
+                            </tr>
+                            <tr>
+                                <td>Calana-Kalanabhyam</td>
+                                <td>Differences and Similarities</td>
+                                <td>Offers additional methods for solving ratio and proportion problems.</td>
+                            </tr>
+                            <tr>
+                                <td>Gunakasamuccayah</td>
+                                <td>The product of the sum</td>
+                                <td>Useful for solving problems involving the product of two sums.</td>
+                            </tr>
+                            <tr>
+                                <td>Gunita Samuccayah</td>
+                                <td>The product of the sum is the sum of products</td>
+                                <td>Aids in simplifying algebraic expressions.</td>
+                            </tr>
+                            <tr>
+                                <td>Yavadunam Tavatirekena Varga Yojayet</td>
+                                <td>By one less than the one so much is the square</td>
+                                <td>Provides an alternative approach for finding squares.</td>
+                            </tr>
+                            <tr>
+                                <td>Antyayordasake’pi</td>
+                                <td>The last digit is as it is</td>
+                                <td>Useful for quick calculations involving the last digit of numbers</td>
+                            </tr>
+                            <tr>
+                                <td>Antyayorekadhikaduhitayor</td>
+                                <td>On the last two digits</td>
+                                <td>Enables efficient calculations when focusing on the last two digits.</td>
+                            </tr>
+                            <tr>
+                                <td>Ardhasamuccayah Samuccayoh</td>
+                                <td>The sum of the half-sums is the sum</td>
+                                <td>A technique for adding fractions with common denominators</td>
+                            </tr>
+                            <tr>
+                                <td>Ekanyunena Sesena</td>
+                                <td>One less than the one followed by the last</td>
+                                <td>Facilitates quick division.</td>
+                            </tr>
+                            <tr>
+                                <td>Sesanyankena Caramena</td>
+                                <td>The last by the last, and the ultimate by one less than the last</td>
+                                <td>A technique for division, especially when dealing with recurring decimals.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+        <!-- <div class="for-more">
+            <h2>For more visit :</h2>
+            <a href="https://www.geeksforgeeks.org/vedic-maths/">Geeks For Geeks</a>  
+            <a href="https://en.wikipedia.org/wiki/Vedic_Mathematics">Wikipedia</a>
+        </div> -->
+    </main>
+
+    <footer>
+        <div>
+            <ul>
+                <li>
+                    <p>Department of Computer Engineering 2023 - 2024 </p>
+                </li>
+            </ul>
+        </div>
+        <!-- <div class="us">
+            <p>Developed by</p>
+            <a href="https://www.linkedin.com/in/anushka-murade/">Anushka Murade</a>
+            <a href="https://www.linkedin.com/in/kinshu-panchal-88370b25a/">Kinshu Panchal</a>
+            <a href="https://www.linkedin.com/in/vishnu-n-0a86b9201/">Vishu Nair</a>
+            <a href="https://www.linkedin.com/in/hardik-kadam-82417b25b/">Hardik Kadam</a>
+        </div> -->
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+        <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>

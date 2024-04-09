@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Changes */
+html,
+body {
+    background: linear-gradient(90deg, burlywood, white);
+    height: 100%;
+    width: 100%;
+    font-size: 10px;
+    /* font-family: Arial, sans-serif; */
+}
+
+h2 {
+    color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12rem;
+    background: linear-gradient(90deg, rgb(63, 36, 1), burlywood);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 5rem;
+    background-color: rgb(63, 36, 1);
+    font-size: 2rem;
+    /* position: relative; */
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-left ul,
+.nav-right ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-left {
+    flex: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+nav a:hover {
+    /* text-decoration: underline ; */
+    /* border-bottom: .2rem solid rgb(63, 36, 1); */
+    background-color: burlywood;
+    color: black;
+    transition: 0.25s all ease;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.container {
+    overflow: hidden;
+    flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* background: linear-gradient(90deg, burlywood, white); */
+}
+
+.card {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    width: 40rem;
+    height: 50rem;
+    background-color: #ffffff;
+    padding: 2rem 3rem;
+    border-radius: 2rem;
+}
+
+.card_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+}
+
+.card_title h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    padding: .4rem;
+}
+
+#tricks .card .btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#tricks .card .btns .trick-btns {
+    margin: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    font-size: 2.3rem;
+    width: 80%;
+    height: 5rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    /* background: linear-gradient(90deg, rgb(166, 97, 7), burlywood); */
+    background-color: burlywood;
+    box-shadow: -5px 5px 5px black, inset 0px 0px 2px rgba(255, 255, 255, 0.623);
+    /* color: #fff; */
+    color: black;
+}
+
+#tricks .btns .trick-btns:hover {
+    cursor: pointer;
+    color: black;
+    background: linear-gradient(90deg, rgb(63, 36, 1), burlywood);
+    box-shadow: -10px 10px 10px black, inset 0px 0px 2px rgba(255, 255, 255, 0.623);
+    transform: scale(1.04);
+    transition: all 0.5s ease;
+}
+
+.animation-box {
+    overflow: hidden;
+    flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 50rem;
+    width: 70rem;
+    background-color: white;
+    margin: auto;
+    padding: 1rem;
+    box-shadow: -5px 5px 5px black, inset 0px 0px 2px rgba(255, 255, 255, 0.623);
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.animation-box .back-btn {
+    margin: 3rem;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 6rem;
+    font-size: 3rem;
+    color: black;
+    /* background: linear-gradient(90deg, rgb(63, 36, 1), burlywood); */
+    background-color: burlywood;
+    box-shadow: -5px 5px 5px black, inset 0px 0px 2px rgba(255, 255, 255, 0.623);
+}
+
+.animation-box h2{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.animation-box .back-btn:hover {
+    cursor: pointer;
+    color: black;
+    background: linear-gradient(90deg, rgb(63, 36, 1), burlywood);
+    box-shadow: -10px 10px 10px black, inset 0px 0px 2px rgba(255, 255, 255, 0.623);
+    transform: scale(1.04);
+    transition: all 0.5s ease;
+}
+
+.animation-box {
+    display: none;
+}
+
+.animation-box .animes {
+    border-radius: 2rem;
+    display: none;
+}
+
+footer {
+    /* position: relative;
+    bottom: 0; */
+    font-size: 1.5rem;
+    background: linear-gradient(90deg, rgb(63, 36, 1), burlywood);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+footer ul {
+    list-style-type: none;
+}
+

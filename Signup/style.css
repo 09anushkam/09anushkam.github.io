@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Changes */
+html,
+body {
+    background: linear-gradient(90deg, burlywood, white);
+    min-height: 100vh;
+    width: 100%;
+    font-size: 10px;
+    /* font-family: Arial, sans-serif; */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12rem;
+    padding: 1rem;
+    background: linear-gradient(90deg, rgb(63, 36, 1), burlywood);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    overflow: hidden;
+    flex: 1;
+    height: 80vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, burlywood, white);
+}
+
+.card {
+    /* box-shadow: -10px 10px 30px black, inset -10px -10px 30px rgba(255, 255, 255, 0.623); */
+    border-radius: 1rem;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    width: 40rem;
+    height: 44rem;
+    background-color: #ffffff;
+    padding: 1rem 3rem;
+}
+
+.card_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+}
+
+.card_title .head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card_title .head i{
+    transform: scale(2);
+}
+
+.card_title .head i:hover{
+    color: #4796ff;
+    cursor: pointer;
+    transform: scale(2.4);
+    transition: all 0.5s ease;
+}
+
+.card_title h1{
+    align-self: center;
+    justify-self: center;
+    font-size: 2.6rem;
+    font-weight: bold;
+    padding: .4rem;
+}
+
+.card_title span {
+    font-size: 1.5rem;
+}
+
+.form input {
+    margin: 1rem 0;
+    width: 100%;
+    background-color: #e2e2e2;
+    box-shadow: -2px 2px 2px black, inset 0px 0px 2px rgba(255, 255, 255, 0.623);
+    border: none;
+    outline: none;
+    padding: 1.2rem 2rem;
+    border-radius: .4rem;
+}
+
+.form button {
+    background: linear-gradient(90deg, rgb(63, 36, 1), burlywood);
+    color: whitesmoke;
+    /* background-color: rgb(219, 161, 85);
+    box-shadow: -2px 2px 2px black, inset 0px 0px 2px rgba(255, 255, 255, 0.623); */
+    /* color: black; */
+    font-size: 1.6rem;
+    outline: none;
+    border-radius: .5rem;
+    border: none;
+    padding: .8rem 1.5rem;
+    width: 100%;
+    margin: 1.5rem 0;
+}
+
+.form button:hover {
+    cursor: pointer;
+    color: whitesmoke;
+    background:linear-gradient(90deg, rgb(63, 36, 1), burlywood);
+    box-shadow: -5px 5px 5px black, inset 0px 0px 2px rgba(255, 255, 255, 0.623);
+    transform: scale(1.02);
+    transition: all 0.5s ease;
+}
+
+.card a {
+    color: #4796ff;
+    text-decoration: none;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    font-size: 1.5rem;
+    background: linear-gradient(90deg, rgb(63, 36, 1), burlywood);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}

@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Changes */
+html,
+body {
+    background: linear-gradient(90deg, burlywood, white);
+    height: 100%;
+    width: 100%;
+    font-size: 10px;
+    /* font-family: Arial, sans-serif; */
+}
+
+main {
+    overflow: hidden;
+}
+
+h2 {
+    color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12rem;
+    background: linear-gradient(90deg, rgb(63, 36, 1), burlywood);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 5rem;
+    background-color: rgb(63, 36, 1);
+    font-size: 2rem;
+    position: relative;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-left ul,
+.nav-right ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-left {
+    flex: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+nav a:hover {
+    background-color: burlywood;
+    color: black;
+    transition: 0.25s all ease;
+}
+
+main {
+    padding: 2rem;
+}
+
+.content-box {
+    margin-bottom: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    /* text-align: center; */
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.content-box h2 {
+    color: rgb(63, 36, 1);
+    /* text-align: center; */
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+
+.content-box h3 {
+    color: rgb(63, 36, 1);
+    /* text-align: center; */
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+.content-box p,pre {
+    /* text-align: center; */
+    font-size: 1.6rem;
+}
+
+.content-box {
+    border: 2px solid #000;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 2rem;
+    width: 80%;
+    background: white;
+    box-shadow: 0 0 10px #888;
+    /* box-shadow: -10px 10px 10px black, inset 0px 0px 2px rgba(255, 255, 255, 0.623); */
+    border-radius: 1rem;
+    font-family: Arial, sans-serif;
+}
+
+.content-box:hover{
+    transform: scale(1.02);
+    transition: all 2s ease;
+}
+
+footer {
+    font-size: 1.5rem;
+    background: linear-gradient(90deg, rgb(63, 36, 1), burlywood);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+/* 
+footer a,footer ul li a{
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer a:hover{
+    color: royalblue;
+} */
