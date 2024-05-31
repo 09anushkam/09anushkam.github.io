@@ -1,5 +1,5 @@
 # AnushkaMurade.github.io  
-### Vedic Maths  
+### This is a static website of Vedic Maths and it is made using HTML and CSS  
 Vedic Maths - Frontend </br>
 [Home page](https://anushkamurade.github.io/ "Home page before login/Signup")  
 [Signup](https://anushkamurade.github.io/Signup "Signup")  
