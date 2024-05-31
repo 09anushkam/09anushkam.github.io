@@ -1,6 +1,6 @@
 # AnushkaMurade.github.io  
 ## Vedic Maths - Frontend Project </br>  
-### This is a static website of Vedic Maths and it is made using HTML and CSS  
+This is a static website of Vedic Maths and it is made using HTML and CSS  
 [Home page](https://anushkamurade.github.io/ "Home page before login/Signup")  
 [Signup](https://anushkamurade.github.io/Signup "Signup")  
 [Login](https://anushkamurade.github.io/Login "Login")  
