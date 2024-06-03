@@ -10,7 +10,7 @@ This is a static website of Vedic Maths and it is created using HTML5, CSS3 and 
 [Quiz](https://09anushkam.github.io/Quiz "Quiz")  
 [Feedback](https://09anushkam.github.io/Feedback "Feedback")  
 
-Github Pages Deployment steps :  
+### Github Pages Deployment steps :  
 1. Create a repo on github website and name it as `Username.github.io`  
 2. Open github desktop  
 Clone that created repo in empty folder with folder name same as repo  
